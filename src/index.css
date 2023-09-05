@@ -1,0 +1,27 @@
+.header {
+    background: #001eb4;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+.mynav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(0, 0, 0);
+  }
+
+.nav-link {
+    margin: 5px;
+  }
+
+.bg-image {
+  background-image: url('./assets/tokyo.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,7 +1,6 @@
 export default function Home() {
     return (
       <div>
-        <h1>Home</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -11,8 +10,7 @@ export default function Home() {
           rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
           tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
           porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
+          vitae lorem tortor.
         </p>
       </div>
     );

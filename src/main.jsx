@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css';
 
 import App from './App';
-import Error from './components/pages/Error';
-import Home from './components/pages/Home';
-import Contact from './components/pages/Contact';
-import About from './components/pages/About';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
+import Error from './pages/Error';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
