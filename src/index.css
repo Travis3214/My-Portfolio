@@ -18,10 +18,25 @@
     margin: 5px;
   }
 
-.bg-image {
-  background-image: url('./assets/tokyo.jpg');
-  height: 100%;
+.bg-header {
+  background-image: url('../public/tokyo.jpg');
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fill;
+  padding: 50px;
+}
+
+.bg-main {
+  background-image: url('../public/city.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  background-position: center;
+  color: rgb(255, 0, 0);
+}
+
+.text {
+  color: white;
+  text-align: center;
 }
