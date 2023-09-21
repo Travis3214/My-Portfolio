@@ -2,7 +2,7 @@
 
 export default function Home() {
     return (
-      <div className="bg-main container">
+      <div className="bg-main">
         <p className="">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

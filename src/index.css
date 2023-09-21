@@ -19,7 +19,7 @@
   }
 
 .bg-header {
-  background-image: url('../public/tokyo.jpg');
+  background-image: url('/tokyo.jpg');
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,10 +28,10 @@
 }
 
 .bg-main {
-  background-image: url('../public/city.jpeg');
+  background-image: url('/city.jpeg');
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 1000px;
+  background-size: cover;
+  height: 100vh;
   background-position: center;
   color: rgb(255, 0, 0);
 }
