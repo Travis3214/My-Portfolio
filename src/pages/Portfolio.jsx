@@ -9,8 +9,20 @@ function Portfolio() {
       githubLink: 'https://github.com/Travis3214/Password-Generator',
     },
     {
-      title: 'Project 2',
-      imageUrl: 'project2.jpg',
+      title: 'Timed Quiz',
+      imageUrl: 'timedQuiz.png',
+      deployedUrl: 'https://travis3214.github.io/Timed-Quiz/',
+      githubLink: 'https://github.com/Travis3214/Timed-Quiz',
+    },
+    {
+      title: 'Workday Scheduler',
+      imageUrl: 'workDay.png',
+      deployedUrl: 'https://travis3214.github.io/Workday-Scheduler/',
+      githubLink: 'https://github.com/Travis3214/Workday-Scheduler',
+    },
+    {
+      title: 'SVG Logo Creator',
+      imageUrl: '',
       deployedUrl: 'https://example.com/project2',
       githubLink: 'https://github.com/yourusername/project2',
     },
@@ -19,7 +31,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio">
-      <h1 className="pageTitle">My Projects</h1>
+      <h1>My Projects</h1>
       <div className="projectLayout">
         {projects.map((project, index) => (
           <ProjectCard
