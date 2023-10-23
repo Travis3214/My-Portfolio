@@ -3,12 +3,6 @@ import ProjectCard from "../components/Projects";
 function Portfolio() {
   const projects = [
     {
-      title: 'Ozone',
-      imageUrl: '',
-      deployedUrl: '',
-      githubLink: '',
-    },
-    {
       title: 'Remote Pathfinder',
       imageUrl: 'remote.png',
       deployedUrl: 'https://remotepathfinder-674af8cc1693.herokuapp.com/',
