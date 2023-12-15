@@ -18,6 +18,11 @@
   margin: 5px;
 }
 
+.nav-link:hover {
+  transform: scale(1.5);
+  transition: all 0.6s ease;
+}
+
 .bg-header {
   background-image: url('/tokyo.jpg');
   height: 200px;
