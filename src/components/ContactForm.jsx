@@ -16,14 +16,14 @@ export const ContactForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} className='contact'>
       <label>Name</label>
       <input type="text" name="from_name" />
-      <label>Email</label>
+      <label className='submit'>Email</label>
       <input type="email" name="from_email" />
-      <label>Message</label>
+      <label className='submit'>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input className='submitButton' type="submit" value="Send" />
     </form>
   );
 };
