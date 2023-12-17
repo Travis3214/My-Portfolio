@@ -1,11 +1,11 @@
+import { ContactForm } from "../components/ContactForm";
+
 export default function Contact() {
     return (
-      <div className="portfolio">
-        <h1>Contact Me</h1>
-        <p className="contact">
-         Fill out the form below
-        </p>
-      </div>
+      <>
+        <h1 className="portfolio">Contact Me</h1>
+        <ContactForm />
+      </>
     );
   }
   
