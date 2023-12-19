@@ -17,9 +17,9 @@ export const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className='contact'>
-      <label>Name</label>
+      <label>Your Name</label>
       <input type="text" name="from_name" />
-      <label className='submit'>Email</label>
+      <label className='submit'>Your Email</label>
       <input type="email" name="from_email" />
       <label className='submit'>Message</label>
       <textarea name="message" />
