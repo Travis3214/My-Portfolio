@@ -160,7 +160,7 @@
   text-align: left;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 15%;
 }
 
@@ -172,4 +172,13 @@
   margin-top: 50px;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+.aboutPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
 }
