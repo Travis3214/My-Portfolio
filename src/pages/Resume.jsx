@@ -1,7 +1,5 @@
-// export default function Resume() {
-
   const Resume = () => {
-    const resumePDF = 'resume.pdf'; // Replace this with the path to your resume PDF
+    const resumePDF = 'resume.pdf';
 
     return (
       <div>

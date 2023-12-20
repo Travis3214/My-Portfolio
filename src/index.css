@@ -158,10 +158,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 75px;
-  padding-bottom: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 15%;
 }
 
 .submit {
