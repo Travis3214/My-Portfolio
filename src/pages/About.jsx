@@ -3,12 +3,12 @@ export default function About() {
       <div className="title">
         <h1>About me</h1>
         <div className="aboutPage">
-          <p>A recent graduate from the University of Central Florida. My degree was in Health Sciences (Pre-Clinical track) </p>
+          <p className="aboutText">A recent graduate from the University of Central Florida. My degree was in Health Sciences (Pre-Clinical track) but i quickily realized my passion was always technology</p>
           <img className="me" src="/me.jpeg" alt="" />
         </div>
         <div className="aboutPage">
           <img className="me" src="/me.jpeg" alt="" />
-          <p>hey</p>
+          <p className="aboutText">hey</p>
         </div>
       </div>
     );
