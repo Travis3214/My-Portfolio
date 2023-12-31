@@ -2,7 +2,6 @@
     const resumePDF = 'resume.pdf';
 
     return (
-      <div>
         <div>
           <iframe
             title="Resume"
@@ -12,7 +11,6 @@
             style={{ border: 'none' }}
           ></iframe>
         </div>
-      </div>
     );
   };
 
