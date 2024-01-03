@@ -4,7 +4,9 @@ export default function Contact() {
     return (
       <div className="title">
         <h1>Contact Me</h1>
-        <ContactForm />
+        <div className="contactPage">
+          <ContactForm />
+          </div>
       </div>
     );
   }

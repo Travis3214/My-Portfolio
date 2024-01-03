@@ -38,7 +38,7 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <form ref={form} onSubmit={sendEmail} className='contact'>
+      <form ref={form} onSubmit={sendEmail} className='contactForm'>
         <label className='submit'>Your Name</label>
         <input type="text" name="from_name" className='submit' />
         <label className='submit'>Your Email</label>
