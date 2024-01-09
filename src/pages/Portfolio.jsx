@@ -15,10 +15,34 @@ function Portfolio() {
       githubLink: 'https://github.com/KingKonaTheFirst/ToneZone',
     },
     {
+      title: 'SVG Logo Creator',
+      imageUrl: 'logo.png',
+      deployedUrl: 'https://example.com/logo-creator',
+      githubLink: 'https://github.com/Travis3214/Logo-Creator',
+    },
+    {
       title: 'BulbaSort',
       imageUrl: 'bulbasort.png',
       deployedUrl: 'https://tragichandlebarsad-d72c9907ede6.herokuapp.com/',
       githubLink: 'https://github.com/rdheadyii/Bulbasort',
+    },
+    {
+      title: 'E-Commerce',
+      imageUrl: 'ecommerce.png',
+      deployedUrl: 'https://drive.google.com/file/d/193klQrJsytgMELcxM_Ljbg2Qr44AHli6/view',
+      githubLink: 'https://github.com/Travis3214/E-commerce',
+    },
+    {
+      title: 'Social Network API',
+      imageUrl: 'social.png',
+      deployedUrl: 'https://github.com/Travis3214/Social-Network-API',
+      githubLink: 'https://github.com/Travis3214/Social-Network-API',
+    },
+    {
+      title: 'Note Taker',
+      imageUrl: 'notes.png',
+      deployedUrl: 'https://travis-6df536f74095.herokuapp.com/',
+      githubLink: 'https://github.com/Travis3214/Note-Taker',
     },
     {
       title: 'Text Editor PWA',
@@ -32,30 +56,14 @@ function Portfolio() {
       deployedUrl: 'https://github.com/Travis3214/Tech-Blog',
       githubLink: 'https://github.com/Travis3214/Tech-Blog',
     },
-    {
-      title: 'Social Network API',
-      imageUrl: 'social.png',
-      deployedUrl: 'https://github.com/Travis3214/Social-Network-API',
-      githubLink: 'https://github.com/Travis3214/Social-Network-API',
-    },
-    {
-      title: 'E-Commerce',
-      imageUrl: 'ecommerce.png',
-      deployedUrl: 'https://drive.google.com/file/d/193klQrJsytgMELcxM_Ljbg2Qr44AHli6/view',
-      githubLink: 'https://github.com/Travis3214/E-commerce',
-    },
+    
     {
       title: 'Read-Me Generator',
       imageUrl: 'readme.png',
       deployedUrl: 'https://drive.google.com/file/d/1X0_6Y1cEawJfouh6XA-qquzwjUsyD_lV/view',
       githubLink: 'https://github.com/Travis3214/Generate-ReadMe',
     },
-    {
-      title: 'Note Taker',
-      imageUrl: 'notes.png',
-      deployedUrl: 'https://travis-6df536f74095.herokuapp.com/',
-      githubLink: 'https://github.com/Travis3214/Note-Taker',
-    },
+    
     {
       title: 'Password Generator',
       imageUrl: 'passwordGenerator.png',
@@ -74,12 +82,7 @@ function Portfolio() {
       deployedUrl: 'https://travis3214.github.io/Workday-Scheduler/',
       githubLink: 'https://github.com/Travis3214/Workday-Scheduler',
     },
-    {
-      title: 'SVG Logo Creator',
-      imageUrl: 'logo.png',
-      deployedUrl: 'https://example.com/logo-creator',
-      githubLink: 'https://github.com/Travis3214/Logo-Creator',
-    },
+    
     // Add more projects to the array as needed
   ];
 
