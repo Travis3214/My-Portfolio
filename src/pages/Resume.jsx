@@ -7,8 +7,7 @@
             title="Resume"
             src={resumePDF}
             width="100%"
-            height="1000px"
-            style={{ border: 'none' }}
+            height="1000"
           ></iframe>
         </div>
     );
