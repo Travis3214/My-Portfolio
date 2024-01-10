@@ -13,7 +13,7 @@ export default function About() {
           <img className="me" src="/" alt="" />
           <div>
             <h1 className="aboutText">Bachelors in Health Sciences (Pre-Clinical)</h1>
-            <p>Recently graduated from the University of Central Florida's Coding Bootcamp.</p>
+            <p></p>
             <p></p>
           </div>
         </div>
