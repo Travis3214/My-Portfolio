@@ -68,12 +68,6 @@
   color: #0024db;
 }
 
-.me {
-  max-width: 30%;
-  height: auto;
-  
-}
-
  .portfolio-card-container {
   display: flex;
   flex-direction: column;
@@ -228,16 +222,28 @@
 
 .aboutPage {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .aboutText {
   text-decoration: underline;
   text-underline-offset: 10px;
   padding-bottom: 15px;
+}
+
+.me1 {
+  max-width: 35%;
+  height: auto;
+  
+}
+
+.me2 {
+  max-width: 35%;
+  height: auto;
+  margin-right: 70px;
 }
