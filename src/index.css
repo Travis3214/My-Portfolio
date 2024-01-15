@@ -220,7 +220,17 @@
   color: black;
 }
 
-.aboutPage {
+.aboutPage1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aboutPage2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -246,4 +256,28 @@
   max-width: 35%;
   height: auto;
   margin-right: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutPage1 {
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+
+  .aboutPage2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .me1 {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .me2 {
+    max-width: 90%;
+  margin-right: 0;
+  margin-bottom: 20px;
+  }
 }
