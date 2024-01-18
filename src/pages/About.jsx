@@ -15,8 +15,8 @@ export default function About() {
           <img className="me2" src="/paolo.jpeg" alt="a photo of an orlando magic basketball player" />
           <div>
             <h1 className="aboutText">Remain Active</h1>
+            <p>I'm a die hard Orlando Magic fan that loves supporting my home team!</p>
             <p>When I'm not coding im usually hanging out with family, lifting weights, or playing basketball to maintain a healthy work life balance.</p>
-            <p>I'm a die hard Orlando Magic fan that loves going to games and supporting my home team!</p>
             <p></p>
           </div>
         </div>
