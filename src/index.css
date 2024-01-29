@@ -216,28 +216,22 @@
 
 .popup p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
 }
 
-.aboutPage1 {
+.aboutme {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-direction: column;
+  padding: 2%;
 }
 
-.aboutPage2 {
+.bootcamp {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+}
+
+.stayactive {
+  display: flex;
 }
 
 .aboutText {
@@ -259,25 +253,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .aboutPage1 {
-    display: flex;
-    flex-direction: column-reverse;
-    
+.me1 {
+  max-width: 90%;
+  margin-bottom: 20px;
   }
 
-  .aboutPage2 {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .me1 {
-    max-width: 90%;
-    margin-bottom: 20px;
-  }
-
-  .me2 {
-    max-width: 90%;
+.me2 {
+  max-width: 90%;
   margin-right: 0;
   margin-bottom: 20px;
   }
 }
+
