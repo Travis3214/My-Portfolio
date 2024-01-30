@@ -223,7 +223,9 @@
 .aboutMe {
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  padding-top: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .bootcamp {
@@ -234,6 +236,7 @@
 
 .bootcampText {
   padding-right: 5%;
+  font-size: 20px;
 }
 
 .stayActive {
@@ -244,12 +247,14 @@
 
 .stayActiveText {
   padding-left: 5%;
+  font-size: 20px;
 }
 
 .aboutText {
   text-decoration: underline;
   text-underline-offset: 10px;
   padding-bottom: 15px;
+  font-size: 50px;
 }
 
 .me1 {
