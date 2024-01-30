@@ -264,6 +264,26 @@
 }
 
 @media screen and (max-width: 768px) {
+.bootcamp {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.stayActive {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0;
+}
+
+.bootcampText {
+  padding-right: 0%;
+}
+
+.stayActiveText {
+  padding-left: 0%;
+}
+
 .me1 {
   max-width: 90%;
   margin-bottom: 20px;
@@ -272,6 +292,5 @@
 .me2 {
   max-width: 90%;
   margin-right: 0;
-  margin-bottom: 20px;
   }
 }
